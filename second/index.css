@@ -1,0 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+    height: 28%;
+    padding: 10px;
+    margin: 15px;
+    border: 5px solid black;
+}
+
+.purple{
+    height: 200px;
+    width: 60px;
+    background: #8a2be2;
+    display: inline-block;
+}
+
+.blue{
+    height: 300px;
+    width: 300px;
+    background: #87ceeb;
+    display: inline-block;
+    border-radius: 300px;
+}
+
+.green{
+    height: 300px;
+    width: 600px;
+    background: #228b22;
+    margin: 0 5%;
+    display: inline-block;
+}
+main{
+    background:white;
+    height: 325px;
+    border: 5px dotted black;
+    margin: 9px;
+    padding: 5%;
+}
+
+.cream{
+    height: 300px;
+    background-color: #fffacd;
+    box-shadow: black 10px 10px 20px;
+}
+
+footer{
+    background: white;
+    height: 325px;
+    padding:30px;
+    
+}
+
+.hellobox{
+    height: 250px;
+    box-shadow: black 10px 10px 20px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.textbox{
+    text-align: center;
+    font-size: 40px;
+    color: #000080;
+    height: 0px;
+    margin: 13%;
+    letter-spacing: 10px;
+}
+    
